@@ -1,8 +1,7 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Logo from './components/Logo';
-import About from './components/About'
+import Home from './components/Home';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import './App.css';
@@ -13,17 +12,14 @@ function App() {
     <div>
       <Navbar />
 
-      {/* <Switch>
-        <Route path='/gallery' exact component={ Gallery } />
+    <div>
+      <Switch>
+        <Route path='/' exact component={ Home } />
+        {/* <Route path='/gallery' exact component={ Gallery } />
         <Route path='/shop' exact component={ Shop }/>
-        <Route path='/cart' exact component={ Cart }/>
-      </Switch> */}
-
-      <div>
-        <Logo />
-        <h1>Welcome to Dr. Ques' Art Gallery and Store</h1>
-        <About />
-      </div>
+        <Route path='/cart' exact component={ Cart }/> */}
+      </Switch> 
+    </div>
 
       <Footer />
     </div>

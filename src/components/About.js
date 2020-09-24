@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <div className='profilePic'>
-                <img src='http://www.placekitten.com/200/200'/>
+                <img src='http://www.placekitten.com/200/200' alt='currently a kitty, will later be headshot of Gabe'/>
             </div>
             <div className='bio'>
                 <p>
