@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Navbar } from 'react-bootstrap';
-import { Route, Router } from 'react-router-dom';
+import { NavLink, Route, Router } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -9,19 +9,19 @@ const Navbar = () => {
                 <div>
                     <ul>
                         <li>
-                            <Route exact to='/'>Home</Route>
+                            <NavLink exact to='/'>Home</NavLink>
                         </li>
                         <li>
-                            <Route to='/gallery'>Gallery</Route>
+                            <NavLink to='/gallery'>Gallery</NavLink>
                         </li>
                         <li>
-                            <Route to='/shop'>Shop</Route>
+                            <NavLink to='/shop'>Shop</NavLink>
                         </li>
                         <li>
                             <a href='mailto:placeholder@buttsNstuff.com' target='_blank'>Contact</a>
                         </li>
                         <li>
-                            <Route to='/cart'>Cart</Route>
+                            <NavLink to='/cart'>Cart</NavLink>
                         </li>
                     </ul>
                 </div> 
