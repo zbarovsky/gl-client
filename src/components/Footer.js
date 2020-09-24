@@ -4,10 +4,10 @@ const Footer = () => {
     return (
         <div>
             <div className='copywrite'>
-                <a href='https://zackbarovsky.dev/'>© Zack Barovsky 2020</a>
+                <a href='https://zackbarovsky.dev/' target='_blank'>© Zack Barovsky 2020</a>
             </div>
             <div className='socialMedia'>
-                <ul>
+                <ul className='footerList'>
                     <li>
                        Instagram 
                     </li>

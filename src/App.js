@@ -3,11 +3,12 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+// import './App.css';
+// import './index.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
 
       {/* <Switch>
