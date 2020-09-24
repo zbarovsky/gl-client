@@ -1,7 +1,8 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer'
+import Logo from './components/Logo';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import './App.css';
 // import './index.css';
@@ -18,6 +19,7 @@ function App() {
       </Switch> */}
 
       <div>
+        <Logo />
         <h1>Welcome to Dr. Ques' Art Gallery and Store</h1>
       </div>
 
