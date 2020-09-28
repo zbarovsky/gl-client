@@ -1,4 +1,5 @@
 import React from 'react'
+import {Nav, Navbar} from 'react-bootstrap'
 
 const Footer = () => {
     return (
@@ -13,9 +14,6 @@ const Footer = () => {
                     </li>
                     <li>
                         <a href='https://www.twitch.tv/docterques' target='_blank'>Twitch</a>
-                    </li>
-                    <li>
-                       StreamLabs 
                     </li>
                 </ul>
             </div>
