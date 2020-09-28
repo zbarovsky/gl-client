@@ -13,7 +13,7 @@ const Contact = () => {
             <div>
                 {/* temp button until full backend built for email form */}
                 <button>
-                    <a href='mailto:placeholder@buttsNstuff.com' target='_blank'>Contact</a>
+                    <a href='mailto:plauron1993@gmail.com' target='_blank'>Contact</a>
                 </button>
             </div>
             {/* contact form here */}

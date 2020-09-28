@@ -9,7 +9,7 @@ const Navigation = () => {
                 <Nav className='mr-auto NavBarList'>
                     <Nav.Link href='/'>Home</Nav.Link>
                     <Nav.Link href='/gallery'>Gallery</Nav.Link>
-                    <Navbar.Text className='NavBarContact'><a href='mailto:placeholder@buttsNstuff.com' target='_blank'>Contact</a></Navbar.Text>
+                    <Navbar.Text className='NavBarContact'><a href='mailto:plauron1993@gmail.com' target='_blank'>Contact</a></Navbar.Text>
                 </Nav>
             </Navbar>
         </div>
