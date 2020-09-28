@@ -3,7 +3,7 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  background-color: black;
+  background-color: #111317;
   color: #FFF6E5;
 }
 
@@ -14,4 +14,16 @@ code {
 
 li {
   list-style: none;
+}
+
+.NavBar {
+  background-color: #FFF6E5;
+}
+
+.NavBarList {
+  background-color: #FFF6E5;
+}
+
+.NavBarContact {
+  background-color: #FFF6E5;
 }

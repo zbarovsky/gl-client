@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navigation from './components/Navbar';
 import Home from './components/Home';
 import Gallery from './components/Gallery'
 import Footer from './components/Footer';
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div>
-      <Navbar />
+      <Navigation />
     <div>
       <Switch>
         <Route path='/' exact render={() => <Home gallery={gallery} /> }/>

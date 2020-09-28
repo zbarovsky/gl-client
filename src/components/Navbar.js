@@ -1,30 +1,19 @@
 import React from 'react';
-// import { Navbar } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import { NavLink, Route, Router } from 'react-router-dom';
 
-const Navbar = () => {
+const Navigation = () => {
     return (
-        <nav>
-            <div>
-                <div>
-                    <ul>
-                        <li>
-                            <NavLink exact to='/'>Home</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to='/gallery'>Gallery</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to='/shop'>Shop</NavLink>
-                        </li>
-                        <li>
-                            <a href='mailto:placeholder@buttsNstuff.com' target='_blank'>Contact</a>
-                        </li>
-                    </ul>
-                </div> 
-            </div>
-        </nav>
+        <div>
+            <Navbar sticky='top'  className='NavBar'>
+                <Nav className='mr-auto NavBarList'>
+                    <Nav.Link href='/'>Home</Nav.Link>
+                    <Nav.Link href='/gallery'>Gallery</Nav.Link>
+                    <Navbar.Text className='NavBarContact'><a href='mailto:placeholder@buttsNstuff.com' target='_blank'>Contact</a></Navbar.Text>
+                </Nav>
+            </Navbar>
+        </div>
     )
 }
 
-export default Navbar;
+export default Navigation;
