@@ -20,9 +20,6 @@ const Navbar = () => {
                         <li>
                             <a href='mailto:placeholder@buttsNstuff.com' target='_blank'>Contact</a>
                         </li>
-                        <li>
-                            <NavLink to='/cart'>Cart</NavLink>
-                        </li>
                     </ul>
                 </div> 
             </div>

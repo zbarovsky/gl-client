@@ -26,8 +26,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={ Home } />
         <Route path='/gallery' render={() => <Gallery gallery={gallery}/>} />
-        {/*<Route path='/shop' exact component={ Shop }/>
-        <Route path='/cart' exact component={ Cart }/> */}
+        {/*<Route path='/shop' exact component={ Shop }/>*/}
       </Switch> 
     </div>
       <Footer />

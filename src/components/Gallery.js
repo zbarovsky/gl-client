@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './Contact';
 
 const Gallery = (props) => {
 
@@ -9,8 +10,11 @@ const Gallery = (props) => {
         <div>
             <div className='gallery'>
                <ul>
-                   {props.gallery.map((gal, i) => <li key={i}><img className='galleryImg'/>{gal.img} <p className='galleryDesc'>{gal.desc}</p></li>)}
+                   {props.gallery.map((gal, i) => <li key={i}><img className='galleryImg' />{gal.img} <p className='galleryDesc'>{gal.desc}</p></li>)}
                </ul>
+            </div>
+            <div>
+                <Contact />
             </div>
         </div>
     )
