@@ -7,11 +7,17 @@ const Contact = () => {
         <div>
             <div>
                 <h3>
-                    Got an idea for a piece of art? Fill out the below and we'll get back to you ASAP.
+                    Got an idea for a piece of art? Click the button below to send us an email and we'll get back to you ASAP.
                 </h3>
             </div>
-            {/* contact form goes here */}
-            <Form>
+            <div>
+                {/* temp button until full backend built for email form */}
+                <button>
+                    <a href='mailto:placeholder@buttsNstuff.com' target='_blank'>Contact</a>
+                </button>
+            </div>
+            {/* contact form here */}
+            {/* <Form>
                 <Form.Control type='text' placeholder='Name' />
 
                 <Form.Label>Email Address</Form.Label>
@@ -19,7 +25,7 @@ const Contact = () => {
 
                 <Form.Label>Text Area</Form.Label>
                 <Form.Control as='textarea' rows='5' />
-            </Form>
+            </Form> */}
         </div>
     )
 }
