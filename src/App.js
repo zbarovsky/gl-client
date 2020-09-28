@@ -24,8 +24,8 @@ function App() {
       <Navbar />
     <div>
       <Switch>
-        <Route path='/' exact component={ Home } />
-        <Route path='/gallery' render={() => <Gallery gallery={gallery}/>} />
+        <Route path='/' exact render={() => <Home gallery={gallery} /> }/>
+        <Route path='/gallery' render={() => <Gallery gallery={gallery} />} />
         {/*<Route path='/shop' exact component={ Shop }/>*/}
       </Switch> 
     </div>

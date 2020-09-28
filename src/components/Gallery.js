@@ -3,9 +3,6 @@ import Contact from './Contact';
 
 const Gallery = (props) => {
 
-    // TODO: Map over all art pieces and include an img + description
-    // single ex given below
-
     return (
         <div>
             <div className='gallery'>

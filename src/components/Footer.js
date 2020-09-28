@@ -9,10 +9,10 @@ const Footer = () => {
             <div className='socialMedia'>
                 <ul className='footerList'>
                     <li>
-                       Instagram 
+                        <a href='https://www.instagram.com/docterques/' target='_blank'>Instagram</a>
                     </li>
                     <li>
-                       Twitch 
+                        <a href='https://www.twitch.tv/docterques' target='_blank'>Twitch</a>
                     </li>
                     <li>
                        StreamLabs 
