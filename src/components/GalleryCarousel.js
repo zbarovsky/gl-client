@@ -7,7 +7,7 @@ const GalleryCarousel = (props) => {
     return (
         <div>
             <div className='gallerycarousel'>
-                <Carousel interval='5000'>
+                <Carousel interval='5000' pause='hover'>
                     {props.gallery.map((carousel, i) => <Carousel.Item>
                         <a href='/gallery'><img /> {carousel.img}</a>
                         <Carousel.Caption>
