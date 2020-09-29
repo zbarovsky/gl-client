@@ -11,10 +11,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   let galleries = [
-    {img: <img src='https://www.placecage.com/c/400/400'/>, desc: 'crazy cage doin his thing'},
-    {img: <img src='https://www.placecage.com/c/400/400'/>, desc: 'crazy cage doin his thing'},
-    {img: <img src='https://www.placecage.com/c/400/400'/>, desc: 'crazy cage doin his thing'},
-    {img: <img src='https://www.placecage.com/c/400/400'/>, desc: 'crazy cage doin his thing'}
+    {img: <img src='https://www.placecage.com/c/400/400'/>, desc: 'crazy cage doin his thing', price: '$ a lock of hair'},
+    {img: <img src='https://www.placecage.com/c/400/400'/>, desc: 'crazy cage doin his thing', price: '$ a lock of hair'},
+    {img: <img src='https://www.placecage.com/c/400/400'/>, desc: 'crazy cage doin his thing', price: '$ a lock of hair'},
+    {img: <img src='https://www.placecage.com/c/400/400'/>, desc: 'crazy cage doin his thing', price: '$ a lock of hair'}
   ]
 
   const [gallery, setGallery] = useState(galleries)

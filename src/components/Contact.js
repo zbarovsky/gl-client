@@ -5,7 +5,7 @@ const Contact = () => {
 
     return (
         <div>
-            <Container fluid>
+            <Container fluid className='mb-4'>
                 <Row>
                     <Col>
                         <h3>
