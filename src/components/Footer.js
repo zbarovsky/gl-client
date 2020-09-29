@@ -4,19 +4,15 @@ import {Nav, Navbar} from 'react-bootstrap'
 const Footer = () => {
     return (
         <div>
-            <div className='copywrite'>
-                <a href='https://zackbarovsky.dev/' target='_blank'>© Zack Barovsky 2020</a>
-            </div>
-            <div className='socialMedia'>
-                <ul className='footerList'>
-                    <li>
-                        <a href='https://www.instagram.com/docterques/' target='_blank'>Instagram</a>
-                    </li>
-                    <li>
-                        <a href='https://www.twitch.tv/docterques' target='_blank'>Twitch</a>
-                    </li>
-                </ul>
-            </div>
+            <Navbar sticky='bottom'  className='justify-content-end footer'>
+                <Nav>
+                    <Nav.Link className='copywrite' href='https://zackbarovsky.dev/' target='_blank'>© Zack Barovsky 2020</Nav.Link>
+                </Nav>
+                <Nav className='socialMediaLinks'>
+                    <Nav.Link href='https://www.instagram.com/docterques/' target='_blank'>Instagram</Nav.Link>
+                    <Nav.Link href='https://www.twitch.tv/docterques' target='_blank' >Twitch</Nav.Link>
+                </Nav>
+            </Navbar>
         </div>
     )
 }
