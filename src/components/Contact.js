@@ -7,7 +7,7 @@ const Contact = () => {
         <div>
             <Container fluid>
                 <Row>
-                    <Col className=''>
+                    <Col>
                         <h3>
                             Got an idea for a piece of art? Click the button below to send us an email and we'll get back to you ASAP.
                         </h3>

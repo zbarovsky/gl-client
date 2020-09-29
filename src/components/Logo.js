@@ -1,12 +1,17 @@
 import React from 'react';
+import {Container, Row, Col} from 'react-bootstrap'
 
 const Logo = () => {
 
     return (
         <div>
-            <div className='banner'>
-                <img src='http://www.placekitten.com/600/200' alt='currently a thiccc kitty, later will be drawn logo from Gabe'/>
-            </div>
+            <Container fluid className='my-3'>
+                <Row>
+                    <Col>
+                        <img src='http://www.placekitten.com/600/200' alt='currently a thiccc kitty, later will be drawn logo from Gabe'/>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     )
 }

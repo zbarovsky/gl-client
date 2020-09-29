@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <Container fluid>
-                <Row className='profilePic'>
+                <Row className='profilePic mb-3'>
                     <Col>
                         <img src='http://www.placekitten.com/200/200' alt='currently a kitty, will later be headshot of Gabe'/>
                     </Col>

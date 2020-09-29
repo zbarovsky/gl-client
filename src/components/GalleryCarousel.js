@@ -1,22 +1,22 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap'
+import { Carousel, Container } from 'react-bootstrap'
 
 const GalleryCarousel = (props) => {
 
     
     return (
         <div>
-            <div className='gallerycarousel'>
+            <Container className='gallerycarousel'>
                 <Carousel interval='5000'>
-                    {props.gallery.map((carousel, i) => <Carousel.Item>
-                        <a href='/gallery'><img /> {carousel.img}</a>
-                        <Carousel.Caption>
+                    {props.gallery.map((carousel, i) => <Carousel.Item className='carouselImg'>
+                        <a href='/gallery'><img />{carousel.img}</a>
+                        <Carousel.Caption className='carouselCaption'>
                             <h3>Img Title</h3>
                             <p>{carousel.desc}</p>
                         </Carousel.Caption>
                     </Carousel.Item>)}
                 </Carousel>
-            </div>
+            </Container>
         </div>
     )
 }
