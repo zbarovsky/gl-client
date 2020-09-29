@@ -18,9 +18,9 @@ const Gallery = (props) => {
                                     <p className='galleryDesc'>{gal.desc}</p>
                                 </Col>
                             </Row>
-                            <Row>
+                            <Row className='mt-1'>
                                 <Col>
-                                    <p>{gal.price}</p>
+                                    <p className='galleryPrice'>{gal.price}</p>
                                 </Col>
                             </Row>
                         </div> 
