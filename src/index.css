@@ -16,9 +16,16 @@ li {
   list-style: none;
 }
 
+.carouselImg img {
+  width: 33%;
+}
+
+.carouselCaption {
+  opacity: 0.25;
+}
+
 .footer {
   background-color: #FFF6E5;
-  
 }
 
 .copywrite {
